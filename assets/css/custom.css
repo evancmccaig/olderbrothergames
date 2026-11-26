@@ -1,0 +1,9 @@
+/* itch.io brand red for the primary link */
+.link-itchio {
+  background-color: #fa5c5c;
+  color: #fff;
+  font-weight: 600;
+}
+.link-itchio:hover {
+  background-color: #e04848;
+}

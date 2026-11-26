@@ -1,0 +1,20 @@
+baseURL = "https://olderbrothergames.com/"   # TODO: confirm domain
+locale = "en-us"
+title = "Older Brother Games"
+theme = "lynx"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[params.author]
+  name = "Older Brother Games"
+  headline = "Indie game studio"
+  # image = "logo.png"   # drop a logo into assets/ and uncomment
+  links = [
+    { itchio = { href = "https://vfs-gdpg.itch.io/hand-to-hand-wizardry", text = ":video_game: Play Hand to Hand Wizardry", icon = "" } },
+    { instagram = { href = "https://www.instagram.com/TODO", text = "Instagram" } },
+    { discord = { href = "https://discord.gg/TODO", text = "Join our Discord" } },
+  ]
+
+[markup.goldmark.renderer]
+  unsafe = true
